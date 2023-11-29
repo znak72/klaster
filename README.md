@@ -43,7 +43,11 @@
 - На проверку отправьте получившуюся схему в формате pkt и скриншот, где виден процесс настройки маршрутизатора.
 
   ### Решение 1
-   ![1](https://github.com/znak72/klaster/blob/main/Router1.png)  
+   ![1](https://github.com/znak72/klaster/blob/main/Router1.png)
+  ![2](https://github.com/znak72/klaster/blob/main/Router2.png)
+  ![3](https://github.com/znak72/klaster/blob/main/ping1.png)
+  ![4](https://github.com/znak72/klaster/blob/main/ping2.png)
+  ![5](https://github.com/znak72/klaster/blob/main/ping3.png)
 
 
 ------
