@@ -100,8 +100,8 @@ vrrp_instance VI_1 {
 }
 ```
 
- ![1](https://github.com/znak72/klaster/blob/main/task21.png)
-  ![1](https://github.com/znak72/klaster/blob/main/task22.png)
-   ![1](https://github.com/znak72/klaster/blob/main/task23.png)
-    ![1](https://github.com/znak72/klaster/blob/main/task24.png)
+ ![6](https://github.com/znak72/klaster/blob/main/task21.png)
+  ![7](https://github.com/znak72/klaster/blob/main/task22.png)
+   ![8](https://github.com/znak72/klaster/blob/main/task23.png)
+    ![9](https://github.com/znak72/klaster/blob/main/task24.png)
 
