@@ -62,5 +62,41 @@
 
 
 ### Решение 2
+### bash.sh
+```bash
+my_index=`test -f /var/www/html/index.html && echo $?`
+my_port=`bash -c "</dev/tcp/localhost/80" && echo $?`
 
+if [ $my_index -eq 0 ] && [ $my_port -eq 0 ]; then
+        exit 0
+else
+        exit 1
+fi
+```
+### keepalived.conf
+```
+global_defs {
+    enable_script_security
+}
+
+vrrp_script b_check {
+    script "/usr/local/bin/bash.sh"
+    interval 3
+    rise 3
+}
+
+vrrp_instance VI_1 {
+    state MASTER
+    interface enp0s5
+    virtual_router_id 15
+    priority 205
+    advert_int 1
+    virtual_ipaddress {
+        10.103.7.15/24
+    }
+    track_script {
+        b_check
+    }
+}
+```
 
